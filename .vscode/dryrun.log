@@ -1,0 +1,49 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/samoore/fdf'
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/fdf.o -c src/fdf.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/colour_scheme_1.o -c src/colour_scheme_1.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/colour_scheme_2.o -c src/colour_scheme_2.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/colour_utils.o -c src/colour_utils.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/gfx_lines.o -c src/gfx_lines.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/gfx_rotate.o -c src/gfx_rotate.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/main_functions.o -c src/main_functions.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/utils_momentum.o -c src/utils_momentum.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/main.o -c src/main.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_banner.o -c src/init_banner.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_edges.o -c src/init_edges.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init.o -c src/init.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_points_and_sphere.o -c src/init_points_and_sphere.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_projections.o -c src/init_projections.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_read_file.o -c src/init_read_file.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/utils_split.o -c src/utils_split.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/utils_keysym.o -c src/utils_keysym.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/utils_kill.o -c src/utils_kill.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/utils_misc.o -c src/utils_misc.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/utils_mouse.o -c src/utils_mouse.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_check_files.o -c src/init_check_files.c -I/usr/include -Ilibraries 
+mkdir -p ./obj/
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o obj/init_check_utils.o -c src/init_check_utils.c -I/usr/include -Ilibraries 
+cc -g3 -gdwarf-3 -w -Wall -Werror -Wextra -o fdf obj/fdf.o obj/colour_scheme_1.o obj/colour_scheme_2.o obj/colour_utils.o obj/gfx_lines.o obj/gfx_rotate.o obj/main_functions.o obj/utils_momentum.o obj/main.o obj/init_banner.o obj/init_edges.o obj/init.o obj/init_points_and_sphere.o obj/init_projections.o obj/init_read_file.o obj/utils_split.o obj/utils_keysym.o obj/utils_kill.o obj/utils_misc.o obj/utils_mouse.o obj/init_check_files.o obj/init_check_utils.o -Llibraries -lmlx -L/usr/include -lXext -lX11 -lm -lft -I.
+make: Leaving directory '/home/samoore/fdf'
+ 
