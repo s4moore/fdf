@@ -64,3 +64,48 @@ git clone https://github.com/mooresamuel/fdf.git
 cd fdf
 ```
 
+
+### 2. Compile the project
+To compile the project and generate the push_swap executable, run:
+```bash
+make
+```
+This will create the push_swap executable.
+
+### 3. Clean up
+To remove the object files:
+```bash
+make clean
+```
+
+To remove all compiled files, including the push_swap executable:
+```bash
+make fclean
+```
+
+To recompile everything from scratch:
+```bash
+make re
+```
+
+# 🧪 Example Usage
+To use the fdf program, you need to provide a height map file as an argument:
+
+```bash
+./fdf
+```
+This will open the graphical window with the 3D visualization of the height map.
+
+# 💡 Key Concepts & Challenges
+3D Visualization: Rendering a 3D map from 2D height data.
+Projections: Using isometric and spherical projections to manipulate and display the map.
+User Interaction: Allowing dynamic manipulation of the map with keyboard and mouse controls.
+Optimization: Ensuring smooth graphics rendering even with large datasets.
+
+# 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# 🤝 Collaboration
+Feel free to contribute to this project! Fork it, submit issues, or open a pull request. If you have suggestions or feedback, don’t hesitate to reach out.
+
+Happy coding! 🚀
