@@ -42,17 +42,6 @@ For the bonus, a **spherical projection** is implemented. This projection allows
 
 ---
 
-## 🔧 Files
-
-- **`fdf.c`**: Main source file containing the setup and initialization of the project.
-- **`map_utils.c`**: Helper functions for processing the map data and handling transformations.
-- **`draw.c`**: The drawing functions that render the 3D map on the screen.
-- **`color.c`**: Functions for managing color schemes and dynamic changes.
-- **`bonus.c`**: Contains the implementation of the bonus feature - spherical projection, pong mode, and banner mode.
-- **`Makefile`**: Automates the build process, compiling all the necessary files.
-
----
-
 ## 🧑‍🔧 Compilation & Setup
 
 To compile and set up the project, follow these steps:
@@ -88,7 +77,7 @@ To recompile everything from scratch:
 make re
 ```
 
-# 🧪 Example Usage
+## 🧪 Example Usage
 To use the fdf program, you need to provide a height map file as an argument:
 
 ```bash
@@ -96,16 +85,16 @@ To use the fdf program, you need to provide a height map file as an argument:
 ```
 This will open the graphical window with the 3D visualization of the height map.
 
-# 💡 Key Concepts & Challenges
+## 💡 Key Concepts & Challenges
 3D Visualization: Rendering a 3D map from 2D height data.
 Projections: Using isometric and spherical projections to manipulate and display the map.
 User Interaction: Allowing dynamic manipulation of the map with keyboard and mouse controls.
 Optimization: Ensuring smooth graphics rendering even with large datasets.
 
-# 📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-# 🤝 Collaboration
+## 🤝 Collaboration
 Feel free to contribute to this project! Fork it, submit issues, or open a pull request. If you have suggestions or feedback, don’t hesitate to reach out.
 
 Happy coding! 🚀
