@@ -15,7 +15,7 @@ The program includes multiple features to enhance user interaction and visualiza
 ### 📊 Image Navigation
 - **`+`** / **`-`**: Switch between different maps. 
 - **`c`**: Change color scheme.
-- **`g`**: Switched to **globe mode**, which changes to a globe projection.
+- **`g`**: Switches to/from **globe mode**, a spherical projection.
 - **`p`**: Initiates **pong mode**, where the image will bounce around the screen.
 - **`b`**: Enables **banner mode**, where a banner will rotate around the object in the visualization.
 
