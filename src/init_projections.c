@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   init_projections.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:51:32 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 18:22:59 by samoore          ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   utils_momentum.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 15:33:57 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 18:34:46 by samoore          ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   utils_misc.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 14:00:33 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/12 14:00:41 by samoore          ###   ########.fr       */

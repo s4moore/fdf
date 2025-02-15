@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   utils_keysym.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 15:40:57 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/19 16:26:57 by samoore          ###   ########.fr       */

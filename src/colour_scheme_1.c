@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   colour_scheme_1.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:31:57 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 17:43:01 by samoore          ###   ########.fr       */

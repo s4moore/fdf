@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   init_points_and_sphere.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:53:27 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 17:42:15 by samoore          ###   ########.fr       */

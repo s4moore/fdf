@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   init_edges.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:44:51 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 18:00:57 by samoore          ###   ########.fr       */

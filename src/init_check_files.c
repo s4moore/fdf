@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   init_check_files.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 18:21:05 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/18 18:21:09 by samoore          ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   main_functions.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:43:43 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/16 17:20:54 by samoore          ###   ########.fr       */

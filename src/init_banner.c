@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   init_banner.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/26 19:13:06 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 18:54:54 by samoore          ###   ########.fr       */

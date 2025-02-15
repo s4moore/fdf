@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   colour_utils.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samoore <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: samoore <samoore@student.42london.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 13:35:33 by samoore           #+#    #+#             */
 /*   Updated: 2024/03/15 17:44:09 by samoore          ###   ########.fr       */
