@@ -12,6 +12,9 @@
 
 #include "./../libraries/fdf.h"
 
+int		WIDE;
+int		HIGH;
+
 void	start_page(t_box *box)
 {
 	int	i;
@@ -70,6 +73,28 @@ void	start_program(t_box *box, char *file)
 	mlx_loop(box->mlx);
 }
 
+void get_screen_dims()
+{
+    Display	*display;
+    int		screen;
+
+    display = XOpenDisplay(NULL);
+    if (display == NULL) {
+        fprintf(stderr, "Cannot open display\n");
+        return 1;
+    }
+
+    screen = DefaultScreen(display);
+
+    WIDE = XDisplayWidth(display, screen);
+	HIGH = XDisplayHeight(display, screen);
+
+    printf("Screen width: %d, Height: %d pixels\n", WIDE, HIGH);
+
+    XCloseDisplay(display);
+    return 0;
+}
+
 int	main(int argc, char **argv)
 {
 	t_box	box;
@@ -77,6 +102,7 @@ int	main(int argc, char **argv)
 	int		fd;
 	char	*tmp;
 
+	get_screen_dims();
 	if (argc == 2)
 		file = argv[1];
 	else

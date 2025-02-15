@@ -21,13 +21,22 @@ OBJ_FILES = $(patsubst %.c, $(OBJ_DIR)%.o, $(SRC_FILES))
 MLX_FLAGS = -Llibraries -lmlx -L/usr/include -lXext -lX11 -lm -lft -I.
 C_FLAGS = -g3 -gdwarf-3 -w -Wall -Werror -Wextra
 INCLUDES = -I/usr/include -Ilibraries 
+REQUIRED_PKGS = libx11-dev libxext-dev
 
 NAME = fdf
 CC = cc
 
-bonus: $(NAME)
+all: check_deps $(NAME) 
 
-all: $(NAME) 
+check_deps:
+	@for pkg in $(REQUIRED_PKGS); do \
+		if ! dpkg -s $$pkg >/dev/null 2>&1; then \
+			echo "Installing missing package: $$pkg"; \
+			sudo apt-get update && sudo apt-get install -y $$pkg; \
+		else \
+			echo "$$pkg is already installed"; \
+		fi \
+	done
 
 $(NAME): $(OBJ_FILES)
 	$(CC) $(C_FLAGS) -o $@ $^ $(MLX_FLAGS)

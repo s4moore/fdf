@@ -15,14 +15,13 @@
 # define _GNU_SOURCE
 # include "mlx.h"
 # include <X11/keysym.h>
+# include <X11/Xlib.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <math.h>
 # include <fcntl.h>
 # include <unistd.h>
 
-# define WIDE	1920
-# define HIGH	850
 # define LEFT	65361
 # define RIGHT	65363	
 # define UP		65362
@@ -38,6 +37,9 @@
 # define R		0x72
 
 typedef unsigned char	t_byte;
+
+extern int WIDE;
+extern int HIGH;
 
 typedef struct s_line
 {
