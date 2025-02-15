@@ -18,6 +18,7 @@ The program includes multiple features to enhance user interaction and visualiza
 - **`g`**: Switches to/from **globe mode**, a spherical projection.
 - **`p`**: Initiates **pong mode**, where the image will bounce around the screen.
 - **`b`**: Enables **banner mode**, where a banner will rotate around the object in the visualization.
+- **`h`**: Hide or unhide the 'back' of the image in globe mode (only available on lower resolution maps).
 
 ### 🖱️ Mouse Controls
 - **Mouse click and drag**: Rotate the map for a dynamic 3D visualization.
